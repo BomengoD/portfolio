@@ -9,7 +9,7 @@ const socials = [
   {
     label: "Envoyer un mail",
     href: "mailto:ruben.boussa@gmail.com",
-    icon: "/images/footer/mail.svg",
+    icon: "/images/footer/envelope.svg",
   },
   {
     label: "GitHub",
