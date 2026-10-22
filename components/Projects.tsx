@@ -36,7 +36,7 @@ const gestionForestiere: Project = {
 
 export default function Projects() {
   return (
-    <SectionPanel id="projects" title="Projects">
+    <SectionPanel id="projects" title="Projets">
         <p className="pb-20 text-2xl font-medium text-jaune [text-shadow:-1.858px_-1.732px_12px_rgba(0,0,0,0.15),-11.15px_-10.392px_48px_rgba(0,0,0,0.15)]">
           Les différents projets que j'ai pu réalisé au cours de ma
           formation mais aussi mes projets personnels. Certains sont finis,

@@ -48,7 +48,7 @@ export default function Timeline({ items }: { items: TimelineItem[] }) {
             <li key={lines[0]} className="relative h-[454px]">
               <div className="absolute left-1/2 top-0 z-10 -translate-x-1/2">
                 <Image
-                  src="/images/minivault_boy.png"
+                  src="/images/Minivault_boy.png"
                   alt=""
                   width={157}
                   height={147}

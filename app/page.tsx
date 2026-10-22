@@ -4,19 +4,28 @@ import Presentation from "@/components/Presentation";
 import Projects from "@/components/Projects";
 import Experiences from "@/components/Experiences";
 import Formation from "@/components/Formation";
+import Competences from "@/components/Competences";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
     <>
       <Navbar />
-      <main>
+      <main className="flex flex-col gap-24">
         <Hero />
+
         <Presentation />
+
         <Projects />
+
         <Formation />
+
         <Experiences />
-         {/* d'autres sections à venir */}
+
+        <Competences />
+ 
       </main>
+      <Footer />
     </>
   );
 }
