@@ -12,9 +12,8 @@ export default function Presentation() {
           <div className="space-y-6 text-2xl font-medium [text-shadow:-1.858px_-1.732px_12px_rgba(0,0,0,0.15),-11.15px_-10.392px_48px_rgba(0,0,0,0.15)]">
             <p>
               Basé en France, je suis un étudiant en BUT Informatique,
-              passionné par la programmation, mais pas que.
+              passionné par la programmation.
             </p>
-            <p>Ceci est mon portfolio, j&rsquo;espère qu&rsquo;il vous plait !</p>
           </div>
         </div>
       </div>
