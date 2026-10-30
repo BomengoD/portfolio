@@ -32,6 +32,7 @@ const gestionForestiere: Project = {
   summary: ["Ce projet fut réalisé dans le cadre d’une SAE lors de ma première année." 
     , "C’est une application qui centralise la gestion d’une parcelle de forêt en permettant de rechercher,trier, ajouter des arbres dans cette parcelle. Réalisée en équipe de 3 en C sur VS Code.",],
   githubUrl: "https://github.com/BomengoD/SAE-1.02-Gestion-Forestiere",
+  rapportUrl: "https://drive.google.com/file/d/1nbpenFH9SX54FLzYjJbxBJdbooYH56iM/view?usp=sharing",
 };
 
 export default function Projects() {

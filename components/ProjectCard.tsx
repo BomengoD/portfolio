@@ -7,7 +7,8 @@ export type Project = {
   title: string;
   image: string;
   summary: string[];
-  githubUrl: string;
+  githubUrl?: string;
+  rapportUrl?: string;
 };
 
 type Props = Project & { className?: string };
@@ -17,6 +18,7 @@ export default function ProjectCard({
   image,
   summary,
   githubUrl,
+  rapportUrl,
   className = "",
 }: Props) {
   const [flipped, setFlipped] = useState(false);
@@ -59,15 +61,28 @@ export default function ProjectCard({
               <p key={paragraph}>{paragraph}</p>
             ))}
           </div>
-          <a
-            href={githubUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            onClick={(e) => e.stopPropagation()}
-            className="rounded-2xl bg-bleu-fallout px-6 py-3 text-lg font-medium text-jaune transition-opacity hover:opacity-80"
-          >
-            Voir le GitHub
-          </a>
+          {githubUrl && (
+            <a
+              href={githubUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={(e) => e.stopPropagation()}
+              className="rounded-2xl bg-bleu-fallout px-6 py-3 text-lg font-medium text-jaune transition-opacity hover:opacity-80"
+            >
+              Voir le GitHub
+            </a>
+          )}
+          {rapportUrl && (
+            <a
+              href={rapportUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={(e) => e.stopPropagation()}
+              className="rounded-2xl bg-bleu-fallout px-6 py-3 text-lg font-medium text-jaune transition-opacity hover:opacity-80"
+            >
+              Voir le rapport
+            </a>
+          )}
         </div>
       </div>
     </div>
