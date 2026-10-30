@@ -11,7 +11,7 @@ type Card = {
 const cv: Card = {
   title: "Mon CV",
   image: "/images/competences/cv.png",
-  href: "https://drive.google.com/file/d/1xV0WpDcr5MJQ4x5RH0yjGyAaHgn0xf58/view?usp=drive_link",
+  href: "https://drive.google.com/file/d/12lM_BgDlw_V8e90L4gsg1C37dvBJFn4z/view?usp=sharing",
   heightClass: "h-[449px]",
 };
 
