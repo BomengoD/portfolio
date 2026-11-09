@@ -4,17 +4,17 @@ const socials = [
   {
     label: "LinkedIn",
     href: "https://www.linkedin.com/in/ruben-boussa",
-    icon: "/images/footer/linkedin.svg",
+    icon: "/images/footer/linkedin.png",
   },
   {
     label: "Envoyer un mail",
     href: "mailto:ruben.boussa@gmail.com",
-    icon: "/images/footer/envelope.svg",
+    icon: "/images/footer/envelope.png",
   },
   {
     label: "GitHub",
     href: "https://github.com/BomengoD",
-    icon: "/images/footer/github.svg",
+    icon: "/images/footer/github.png",
   },
 ];
 
