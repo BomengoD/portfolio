@@ -25,11 +25,11 @@ export default function ProjectCard({
 
   return (
     <div
-      className={`h-[390px] [perspective:1200px] ${className}`}
+      className={`h-[390px] [perspective:1200px] transition-transform hover:scale-[1.01] ${className}`}
       onKeyDown={(e) => e.key === "Escape" && setFlipped(false)}
     >
       <div
-        className={`relative size-full transition-transform duration-500 [transform-style:preserve-3d] motion-reduce:transition-none ${
+        className={`relative size-full transition-transform duration-500 [transform-style:preserve-3d] motion-reduce:transition-none  ${
           flipped ? "[transform:rotateY(180deg)]" : ""
         }`}
       >
