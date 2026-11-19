@@ -6,6 +6,7 @@ import Experiences from "@/components/Experiences";
 import Formation from "@/components/Formation";
 import Competences from "@/components/Competences";
 import Footer from "@/components/Footer";
+import { Analytics } from "@vercel/analytics/next";
 
 export default function Home() {
   return (
