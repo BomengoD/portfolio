@@ -24,7 +24,8 @@ export default function Home() {
         <Experiences />
 
         <Competences />
- 
+
+        <Analytics />
       </main>
       <Footer />
     </>
