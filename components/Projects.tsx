@@ -23,7 +23,7 @@ const puissance4: Project = {
   image: "/images/projets/p4.png",
   summary: ["Ce projet fut réalisé dans le cadre d’une SAE lors de ma première année."
     , "C’est une application qui simule des parties de puissance 4 contre une IA avec notamment la connexion à un profil joueur afin de sauvegarder des parties ou avoir des trophées. Elle a été réalisée en équipe de 5 sur Visual Studio en C# avec WPF, et la création d’une base de données.",],
-  githubUrl: "https://github.com/Laty4127/SAE-2.01",
+  githubUrl: "https://github.com/BomengoD/SAE-2.01",
 };
 
 const gestionForestiere: Project = {
